@@ -1,0 +1,22 @@
+interface.py:
+  To run this program simply navigate to the directory where it is located and run `python interface.py`. The program will take a few seconds to build the MDP model and run value iteration. Then it will ask for your current neighborhood, you may input any of the following: Washington Heights, Chelsea, Hell's Kitchen, Midtown, Midtown East, Murray Hill and Gramercy, East Village, West Village, Greenwich Village, Financial District, Lower East Side, Soho, Central Park, Laguardia Airport, JFK Airport, Upper East Side, Upper West Side, Upper West Side, East Harlem, Harlem. Then it will ask you for the time, which should be in HH:MM format example (5:30, 6:34, 15:45). The program will complain if it is unable to parse your time or can’t find recognize neighborhood inputted. It will then spit out the direction where you should head which is one of the following: South, North, West, East, or Commit.
+
+Example:
+  $ python interface.py
+    Creating MDP
+    Running Value iteration
+    What neighborhood are you currently in: Upper East Side
+    Current time (HH:MM):   4:30
+    West
+
+
+
+
+data.ipynb:
+  To run this program, one must navigate to the directory where data.ipynb located and run `ipython notebook data.ipynb`. An internet browser will open, click on the first cell and then above on the tab that says "Cell" and choose the option to "Run All Below". There are also instructions on the file itself.
+
+Example:
+  `ipython notebook data.ipynb`
+
+
+  *  You must have the correct python libraries installed
